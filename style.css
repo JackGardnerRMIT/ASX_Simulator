@@ -134,9 +134,6 @@ Footer
 */
 
 ul.footer {
-    position: fixed;
-    bottom: 0px;
-
     text-align: center;
     list-style-type: none;
     margin: 0;
