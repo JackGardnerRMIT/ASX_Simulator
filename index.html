@@ -1,9 +1,10 @@
-/*
-StyleSheet
-Last modified: 1/5/2021 6:50AM
+<!--
+Index
+Last modified: 2/5/2021 3:56PM
 @authors: Jack, Jeff, Phuong, Eren, Majeed
 NOTE: The dividers below (-----) serves to separate major segments of the css code for easier navigation.
-*/
+
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,19 +32,19 @@ NOTE: The dividers below (-----) serves to separate major segments of the css co
     <li class="right"><a class="active" href="index.html">Home</a></li>
 </ul>
 
-<!-- content-------------------------------------------------------------------------------------------------------------------------------------------------------------- -->    
+<!-- content ------------------------------------------------------------------------------------------------------------------------------------------------------------------->    
 <!--The boxes do not have a fixed height, and will expand based on word count-->
-<div class="introbox">  <!--The top box, has extra margin on top-->
+<div class="introbox">  <!--The top box, has extra margin on top. always start with this box because of the margin-->
     <h2>test-h2</h2>
     <p>test-p</p>
     <p>test-p</p>
-  </div> 
+</div> 
   <div class="nbox">      <!--n(ormal) box-->
     <h2>test2-h2</h2>
     <p>test2-p</p>
     <p>test2-p</p>
   </div> 
-  <div class="nbox">
+  <div class="nbox">      <!--another normal box, but this one has more text, showing that it expands according to lines required.-->
     <h2>test3-h2</h2>
     <p>test3-p</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -60,12 +61,14 @@ NOTE: The dividers below (-----) serves to separate major segments of the css co
     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
   </div>
-  <div class='cont1'>
-    <div class='column'></div>
+  <div class='cont1'>     <!--the class cont1 stands for container 1, acts as a container for columns.-->
+    <div class='column'></div>      <!--these are each individual columns. They don't expand height-wise according to the content, so you might need to manipulate it through css for it to look uniform.-->
     <div class='column'></div>
     <div class='column'></div>
   </div>
 
+    
+<!-- Footer -------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <ul class="footer">
     <div class="rights">© Copyright - Group 9 - 2021 | All rights reserved</div>
 </ul>
