@@ -181,6 +181,8 @@ Table
 
 table, th, td {
   width: 95%;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px; 
   border-color: #F40F0F;
   border-collapse: collapse;
