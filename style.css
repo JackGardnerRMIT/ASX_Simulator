@@ -180,7 +180,8 @@ Table
 */
 
 table, th, td {
-  border: 1px #F40F0F;
+  border: 1px; 
+  border-color: #F40F0F;
   border-collapse: collapse;
 }
 th, td {
