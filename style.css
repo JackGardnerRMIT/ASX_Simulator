@@ -168,3 +168,12 @@ th, td {
   padding: 5px;
   text-align: left;
 }
+
+/* 
+Profile Photos
+*/
+
+#client_logos {
+    display: inline-block;
+    width:90%;
+}
