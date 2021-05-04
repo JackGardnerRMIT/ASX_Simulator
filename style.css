@@ -161,8 +161,8 @@ Profile Images
 .profile_images {
 	width: "300";
 	height: "300";
-/*  	align: "middle";
-	align: left; */
+/*   	align: "middle"; */
+	align: left; 
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -172,7 +172,7 @@ Profile Images
 	margin-right: 35px;
 	margin-bottom: 35x; */
 	max-width: 17.5%;
-	text-align: center;
+/* 	text-align: center; */
 }
 
 /* 
