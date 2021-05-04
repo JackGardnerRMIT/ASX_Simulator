@@ -154,6 +154,10 @@ ul.footer li a {
     font-size: 15px;
 }
 
+/* 
+Profile Images
+*/
+
 .profile_images {
 	width: "300";
 	height: "300";
@@ -169,4 +173,17 @@ ul.footer li a {
 	margin-bottom: 35x;
 	max-width: 17.5%;
 /* 	text-align: center; */
+}
+
+/* 
+Table
+*/
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
 }
