@@ -161,18 +161,18 @@ Profile Images
 .profile_images {
 	width: "300";
 	height: "300";
-/* 	align: "middle"; */
-	align: left;
-/* 	padding-top: 50px;
+/*  	align: "middle";
+	align: left; */
+	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 50px; */
-	margin-top: 35px;
+	padding-bottom: 50px;
+/* 	margin-top: 35px;
 	margin-left: 35px;
 	margin-right: 35px;
-	margin-bottom: 35x;
+	margin-bottom: 35x; */
 	max-width: 17.5%;
-/* 	text-align: center; */
+	text-align: center;
 }
 
 /* 
@@ -180,10 +180,10 @@ Table
 */
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px #F40F0F;
   border-collapse: collapse;
 }
 th, td {
-  padding: 5px;
+  padding: 10px;
   text-align: left;
 }
