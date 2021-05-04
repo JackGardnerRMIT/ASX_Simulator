@@ -155,12 +155,13 @@ ul.footer li a {
 }
 
 .profile_images {
-	width="300";
-	height="300";
-	align="middle";
-	margin-top=35px;
-	margin-left=35px;
-	margin-right=35px;
+	width: "300";
+	height: "300";
+/* 	align: "middle"; */
+	margin-top: 35px;
+	margin-left: 35px;
+	margin-right: 35px;
 	margin-bottom: 35x;
 	max-width: 17.5%;
+	text-align: center;
 }
