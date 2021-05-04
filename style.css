@@ -160,8 +160,6 @@ Table
 
 table, th, td {	
   width: 97.5%;
-/* margin-left: auto;
-margin-right: auto; */
   border: 1px solid red;
   border-collapse: collapse;
 }
