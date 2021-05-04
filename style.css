@@ -94,6 +94,13 @@ ul.nav li.right {
 Content mod
 */
 
+.introbox {	/*box for the first content box (has top margin)*/
+	background-color:#1a1a1a;
+	color:white;
+	padding:20px;
+	margin:100px 50px 5px 50px;
+}
+
 .box {	/*standard content box*/
 	background-color:#1a1a1a;
 	color:white;
