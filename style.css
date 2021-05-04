@@ -2,7 +2,6 @@
 StyleSheet
 Last modified: 4/5/2021 12:32PM
 @authors: Jack and Jeff
-NOTE: The dividers below (-----) serves to separate major segments of the css code for easier navigation.
 */
 
 /*
@@ -18,7 +17,6 @@ body {
 
 h1 {
 	font-size: 48px;
-	color: #ff5050
 }
 
 h2 {
@@ -157,5 +155,12 @@ ul.footer li a {
 }
 
 .profile_images {
-	
+	width="300";
+	height="300";
+	align="middle";
+	margin-top=35px;
+	margin-left=35px;
+	margin-right=35px;
+	margin-bottom: 35x;
+	max-width: 17.5%;
 }
