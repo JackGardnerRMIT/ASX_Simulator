@@ -1,12 +1,12 @@
 /*
 StyleSheet
-Last modified: 1/5/2021 6:50AM
-@authors: Jack, Jeff, Phuong, Eren, Majeed
+Last modified: 4/5/2021 12:32PM
+@authors: Jack and Jeff
 NOTE: The dividers below (-----) serves to separate major segments of the css code for easier navigation.
 */
 
 /*
-General text modifications	-------------------------------------------------------------------------------------------------------------------------------------------------
+General text modifications
 */
   
 body {
@@ -37,7 +37,7 @@ p {
 }
 
 /* 
-Navigation ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Navigation
 */
 
 .h1 {
@@ -91,14 +91,15 @@ ul.nav li.right {
 }
 
 /*
-Content mod	-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Content mod
 */
 
 .introbox {	/*box for the first content box (has top margin)*/
 	background-color:#1a1a1a;
 	color:white;
 	padding:20px;
-	margin:100px 25px 5px 25px;
+/* 	margin:100px 25px 5px 25px; */
+	margin:100px 100px 5px 100px;
 }
 
 .nbox {	/*standard content box*/
@@ -109,7 +110,7 @@ Content mod	--------------------------------------------------------------------
 }
 
 /*
-TeamProfile section -------------------------------------------------------------------------------------------------------------------------------------------------------------
+TeamProfile section
 */
 
 .cont1 {	/*container for columns*/
