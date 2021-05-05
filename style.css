@@ -105,7 +105,6 @@ Content mod
 	color:white;
 	padding:20px;
 	margin:15px 25px 20px 25px;
-/* 	margin:15px 100px 20px 100px; */
 }
 
 /*
@@ -159,7 +158,6 @@ Table
 */
 
 table, th, td {	
-/*   width: 97.5%; */
   border: 1px solid red;
   border-collapse: collapse;
 }
