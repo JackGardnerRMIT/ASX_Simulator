@@ -159,7 +159,7 @@ Table
 */
 
 table, th, td {	
-  width: 97.5%;
+/*   width: 97.5%; */
   border: 1px solid red;
   border-collapse: collapse;
 }
